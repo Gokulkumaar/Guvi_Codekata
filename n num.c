@@ -2,20 +2,20 @@
  
 int main()
 {
-   int i, sum = 0, c, value;
+   int n, sum = 0, c, value;
  
-   printf("Enter the number of integers you want to add\i");
-   scanf("%d", &i);
+   printf("Enter the number of integers you want to add\n");
+   scanf("%d", &n);
  
-   printf("Enter %d integers\i",i);
+   printf("Enter %d integers\n",n);
  
-   for (c = 1; c <= i; c++)
+   for (c = 1; c <= n; c++)
    {
       scanf("%d", &value);
       sum = sum + value;
    }
  
-   printf("Sum of entered integers = %d\i",sum);
+   printf("Sum of entered integers = %d\n",sum);
  
    return 0;
 }
